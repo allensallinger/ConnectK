@@ -232,7 +232,7 @@ class StudentAI():
 			# print("with gravity")
 			for w in range(state.get_width()):
 				if(state.get_space(w, state.get_height() - 1) == 0):
-					new_state = state.place_piece((w, new_state.get_height() - 1), self.player)
+					new_state = state.place_piece((w, state.get_height() - 1), self.player)
 					rating = self.rateState(new_state)
 					# if(rating <= alpha and rating >= beta):
 					states_generated.append(new_state)
