@@ -5,7 +5,7 @@ import sys
 sys.path.append(r'\ConnectKSource_python')
 import ConnectKSource_python.board_model as boardmodel
 
-team_name = "StudentAI-Default" #TODO change me
+team_name = "PossiblySkynetAI" #TODO change me
 
 class StudentAI():
 	def __init__(self, player, state):
